@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Nomark';
+    src: url('../fonts/Nomark.woff2') format('truetype'); /* Assurez-vous d'ajuster le chemin du fichier en fonction de l'emplacement de votre fichier de police */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
