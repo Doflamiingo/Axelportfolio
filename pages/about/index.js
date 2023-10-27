@@ -49,12 +49,7 @@ const About = () => {
           animate="visible"
           className="text-white text-base xl:text-xl"
         >
-          Je suis un photographe et vidéaste passionné qui s'inspire de la
-          culture hip-hop et du contemporain pour créer des œuvres visuelles
-          uniques. Mon travail est une fusion artistique, capturant l'énergie,
-          le rythme et l'authenticité de la culture hip-hop tout en l'associant
-          à des éléments contemporains pour donner naissance à des créations
-          visuelles qui transcendent les frontières du temps.
+          Je
         </motion.p>
         <motion.button
           variants={fadeInButton}
