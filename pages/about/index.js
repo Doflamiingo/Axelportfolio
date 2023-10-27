@@ -43,26 +43,24 @@ const About = () => {
           </div>
         </h2>
 
-        <p className="text-white text-base xl:text-xl">
-          <motion.p
-            variants={fadeInText}
-            initial="hidden"
-            animate="visible"
-            className="text-white text-base xl:text-xl"
-          >
-            Je suis un photographe et vidéaste passionné qui s'inspire de la
-            culture hip-hop et du contemporain pour créer des œuvres visuelles
-            uniques. Mon travail est une fusion artistique, capturant l'énergie,
-            le rythme et l'authenticité de la culture hip-hop tout en
-            l'associant à des éléments contemporains pour donner naissance à des
-            créations visuelles qui transcendent les frontières du temps.
-          </motion.p>
-        </p>
+        <motion.p
+          variants={fadeInText}
+          initial="hidden"
+          animate="visible"
+          className="text-white text-base xl:text-xl"
+        >
+          Je suis un photographe et vidéaste passionné qui s'inspire de la
+          culture hip-hop et du contemporain pour créer des œuvres visuelles
+          uniques. Mon travail est une fusion artistique, capturant l'énergie,
+          le rythme et l'authenticité de la culture hip-hop tout en l'associant
+          à des éléments contemporains pour donner naissance à des créations
+          visuelles qui transcendent les frontières du temps.
+        </motion.p>
         <motion.button
           variants={fadeInButton}
           initial="hidden"
           animate="visible"
-          className="bg-gray-700 hover-bg-gray-600 text-white mt-5 py-2.5 px-5 rounded-full xl-text-2xl"
+          className="bg-gray-700 hover:bg-gray-600 text-white mt-5 py-2.5 px-5 rounded-full xl-text-2xl"
         >
           Mes projets
         </motion.button>

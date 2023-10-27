@@ -9,7 +9,7 @@ const Testimonials = () => {
       id: 1,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar, dui eget faucibus varius, odio arcu euismod sapien.",
       name: "Client 1",
-      image: "../../../public/avatar.png", // Ajoutez le chemin de l'image du client
+      image: "", // Ajoutez le chemin de l'image du client
     },
     {
       id: 2,
